@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starter</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <section class="menu">
+        <!-- Title of the project -->
+        <div class="title">
+            <h2>The Menu</h2>
+            <div class="underline"></div>
+        </div>
+
+        <!-- Filter items & buttons  -->
+        <!-- Data ids are provided to be used in the js file for the specific function -->
+        <div class="btn-container">
+            <button class="filter-btn" type="button" data-id="all">all</button>
+            <button class="filter-btn" type="button" data-id="main">main course</button>
+            <button class="filter-btn" type="button" data-id="desserts">desserts</button>
+            <button class="filter-btn" type="button" data-id="drinks">drinks</button>
+        </div>
+
+        <!-- Menu items -->
+        <div class="section-center">
+
+
+            <!-- Start of single item -->
+
+            <!-- article wwhich contains the different items required to display -->
+            <artice class="menu-item">
+                <img src="authentic-butter-chicken-1957382-Hero-5b61b398c9e77c0050160f54.jpg" class="photo" alt="">
+                <div class="item-info" <header>
+                    <h4>Butter Chicken</h4>
+                    <h4 class="price">350₹</h4>
+                    </header>
+
+                    <!-- Lorem 20 command writes 20 words of the lorem ipsum format -->
+
+                    <p class="item-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias blanditiis neque autem sapiente similique. Deserunt aliquam sunt non. Magni, quam.</p>
+
+                </div>
+            </artice>
+        </div>
+    </section>
+    <!--  End of single item -->
+    <!-- We'll use  this single item to repeat the values in the array of the javascript file -->
+
+    <!-- javascript -->
+    <script src="app.js"></script>
+</body>
+
+</html>
